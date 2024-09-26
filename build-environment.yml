@@ -1,0 +1,12 @@
+name: jlite-build
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - jupyter_server
+  - libarchive
+  - jupyterlite-core
+#  - jupyterlite-xeus>=2.0.0,<3
+  - jupyterlite-pyodide-kernel
