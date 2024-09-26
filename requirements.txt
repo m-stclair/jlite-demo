@@ -1,8 +1,16 @@
+# pdr dependencies
+jfioa
+cytoolz
+dustgoggles
+more_itertools
+multidict
+pillow
+matplotlib
+
 # Core modules (mandatory)
 jupyterlite-core==0.4.1
 jupyterlab~=4.2.5
 notebook~=7.2.2
-
 
 # Python kernel (optional)
 jupyterlite-pyodide-kernel==0.4.2
@@ -40,6 +48,3 @@ ipycanvas>=0.9.1
 # Python: ipyleaflet library for Jupyter notebooks (optional)
 ipyleaflet
 
-# Python: plotting libraries (optional)
-plotly>=5,<6
-bqplot
